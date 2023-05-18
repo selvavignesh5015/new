@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="demo.POST"/>
+      <class name="demo.DELETE"/>
+      <class name="PBL.pbl4"/>
+      <class name="PBL.pbl5"/>
+      <class name="PBL.pbl6"/>
+      <class name="demo.GET"/>
+      <class name="demo.PATCH"/>
+      <class name="PBL.pbl1"/>
+      <class name="framework.Assignment_01"/>
+      <class name="PBL.pbl2"/>
+      <class name="PBL.pbl3"/>
+      <class name="demo.PUT"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
